@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Otros</title>
+    <!--Bosstrap-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!--CSS-->
+</head>
+<body>
+    <!--Cabezera-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+   <a class="navbar-brand">Santeria</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Otros</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--Mi Formulario-->
+  <form action="/formulario" method="post">
+    <label for="nombre"><strong>Nombre</strong></label>
+    <input id="nombre" name="nombre" placeholder="Ingresar nombre" />
+    <br>
+    <label for="apellido"><strong>Apellido</strong></label>
+    <input type="text" id="apellido" name="apellido" placeholder="Ingresar apellido">
+    <br>
+    <label for="correo"><strong>Correo</strong></label>
+    <input type="email" id="correo" name="correo" placeholder="Ingresar correo" />
+    <br>
+    <label for="comentario"> <strong>Comentario</strong></label>
+    <br>
+    <textarea cols="70" rows="4" id="comentario" placeholder="Dejanos tu comentario"></textarea>
+    <br>
+    <input type="submit">
+  </form>
+</body>
+</html>

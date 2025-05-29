@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--Apartado de la pagina "CONTACTO"-->
+<head>
+    <title>Contacto</title>
+    <!--Boostrap-->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+ <!--CSS-->
+ <link rel="stylesheet" href="Main.css">
+ <!--mapa de google-->
+ <style>
+    #mapa{
+        margin: 0 auto;
+        background-color: grey;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: fit-content;
+    }
+    #mapa h1{
+        text-align: center;
+        color: white;
+    }
+    #fameMap{
+        border-radius: 5px;
+        margin: 15px;
+    }
+ </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+   <a class="navbar-brand">Santeria</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="otros.html">Otros</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--Mapa de google-->
+  <div class="container">
+    <p class="text"><strong> Estamos hubicados en:</strong></p>
+  </div>
+<div id="mapa">
+    <h1>Santeria</h1>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.9059749500634!2d-58.84096192493345!3d-34.783142266994965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcec0364ec4749%3A0x374996fc8aaccb22!2sDTN%2C%2025%20de%20Mayo%2074%2C%20B1727%20Marcos%20Paz%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1748533728065!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<!--whatsapp-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://api.whatsapp.com/send?phone=1160293067&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
+</body>
+</html>
